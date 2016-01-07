@@ -1,0 +1,30 @@
+/* Navigation Section */
+
+.links {
+  float: right;
+  display: inline-block;
+}
+
+.content {
+  padding: 0px 15px;
+}
+
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 60.625em;
+  height: 4.375em;
+  margin: 0 auto;
+  margin-left: 4.2em;
+  padding-top: 1em;
+}
+
+body {
+  background-color: LightGray;
+}
+
+div {
+  border: 1px solid Chocolate;
+}

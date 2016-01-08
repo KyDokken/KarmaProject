@@ -1,3 +1,5 @@
+/* General/all */
+
 html {
     box-sizing: border-box;
 }
@@ -6,6 +8,13 @@ html {
 }
 
 /* Navigation section */
+
+.top-navigation {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    z-index: 9999;
+}
 
 .logo {
     margin-left: 14px;
@@ -54,12 +63,13 @@ html {
 .bigbutton {
     text-shadow none;
     border-style: none;
-    border-radius: 4px
-    padding: 16px 26px;
+    border-radius: 4px;
     line-height: 1.33;
-    background-color: orange;
+    background-color: #f15a29;
+    border-color: #f15a29;
     display: block;
     margin: 0 auto; /* Set display to block prior to using auto margin */
     width: 10em;
-    height: 5em;
+    height: 4.2em;
+    /* Add hover color change+new cursor */
 }

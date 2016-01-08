@@ -15,12 +15,10 @@ html {
     border-bottom: 1px solid #ddd;
     z-index: 9999;
 }
-
 .logo {
     margin-left: 14px;
     height: 70px;
 }
-
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -42,7 +40,7 @@ html {
     color: #333333;
 }
 
-/* Primary section */
+/* Image section */
 
 .introduction {
     background-image: url('../images/primary.jpeg');
@@ -50,16 +48,12 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938em;
-    overflow: auto;
-    
+    overflow: auto; 
 }
-
 .content {
     color: white;
     text-align: center;
-    margin-top: 17em;
 }
-
 .bigbutton {
     text-shadow none;
     border-style: none;
@@ -73,3 +67,15 @@ html {
     height: 4.2em;
     /* Add hover color change+new cursor */
 }
+
+/* Content section */
+
+.caption {
+    color: black;
+    /* - - - align underneath pics*/ 
+}
+
+.content {
+    display: inline-block;
+}
+

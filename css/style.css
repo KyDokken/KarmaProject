@@ -33,12 +33,33 @@ html {
     color: #333333;
 }
 
+/* Primary section */
 
 .introduction {
-    background-image: url('../images/first-background.jpg');
+    background-image: url('../images/primary.jpeg');
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-dize: cover;
-    height: 45.938em; /*How did I come to a different em? */
+    background-size: cover;
+    height: 45.938em;
+    overflow: auto;
+    
 }
 
+.content {
+    color: white;
+    text-align: center;
+    margin-top: 17em;
+}
+
+.bigbutton {
+    text-shadow none;
+    border-style: none;
+    border-radius: 4px
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: orange;
+    display: block;
+    margin: 0 auto; /* Set display to block prior to using auto margin */
+    width: 10em;
+    height: 5em;
+}
